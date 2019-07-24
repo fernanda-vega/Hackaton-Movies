@@ -3,11 +3,11 @@
  ## Índice
 
 * [Preámbulo](#preámbulo)
-* [Resumen del proyecto](#resumen-del-proyecto)
-* [Consideraciones generales](#consideraciones-generales)
-* [Objetivos de aprendizaje](#objetivos-de-aprendizaje)
-* [Parte obligatoria](#parte-obligatoria)
-* [Consideraciones técnicas](#consideraciones-técnicas)
+* [Presentación de la página web](#POPMOVIES)
+* [Investigación de Usuario](#cinvestigación-de-usuario)
+* [Historias de Usuario](#Historias-de-Usuario)
+* [Referencias visuales](#Referencias-visuales)
+* [Guía de estilos](#Guía-de-estilos)
 
  ***
 
@@ -20,62 +20,62 @@ canchita / cabritas), parando si es necesario, teniendo acceso a una cantidad
 abrumadora de películas... ha cambiado la experiencia del usuario
 y modificado el mercado de las películas a nivel global.
 
- ![Pelis](https://media.giphy.com/media/NipFetnQOuKhW/giphy.gif)
 
- ## **Resumen del proyecto**
+ ## **POPMOVIES**
 
- Durante estos días crearás el producto que tú quieras alrededor del mundo
-de las películas. Puede ser un sitio que hable de las mejores películas
-latinoamericanas, uno que recomiende las películas recién estrenadas en Netflix,
-uno de pelis de terror... o... ¡lo que quieras!
+ ![explain](https://media.giphy.com/media/nuuS1IlKqd2dq/giphy.gif)
 
- ## **Consideraciones generales**
+Pensando en las crecientes necesidades de los usuarios que consumen películas regularmente, hemos creado POPMOVIES, una página web que permite filtrar las películas según los premios que estas han recibido. Esta dirigida a un usuario 
 
- * Este proyecto se debe resolver en equipos de hasta 4 personas.
-* Usa la API de [OMDB](http://www.omdbapi.com/) (The Open Movie Database).
-* Tiempo para completar el reto: 4 días.
+ ## **Investigación de usuario**
+
+* Como un primer acercamiento para conocer al usuario realizamos una encuesta con un muestreo de 30 personas.
+ 
+[Encuesta](https://docs.google.com/forms/d/e/1FAIpQLSe2d9NFO8auWaLvLg-drgCDPLfH6nzCC7Dk51G0cgnDNekDxg/viewform?usp=sf_link)
+
+**Análisis encuesta**
+
+De un muestreo total de 29 usuarios un 34,5% considera las premiaciones de las películas para decidir si verlas o no, este es el usuario al que apuntaremos como público objetivo de nuestra página web. Decidimos también que nuestros filtros de premiaciones se basaran en las categorías  de los Oscars, ya que fueron los más votados con un 75,9% por sobre otros galardones como los BAFTA, Golden globes, SAG y Goya. La categoría más votada como relevante en cuanto a las premiaciones fue el premio a mejor película, con un 48,3%, por lo tanto este será nuestro filtro disponible para los usuarios de la plataforma
+
+![grafico-uno](img/grafico-1.jpeg)
+
+![grafico-dos](img/grafico-2.jpeg)
+
+![grafico-tres](img/grafico-3.jpeg)
 
 
- ## **Objetivos de aprendizaje**
+ ## **Historias de usuario**
 
- * Enfrentarte a un reto de corta duración en el que pongas en práctica todo
-lo aprendido hasta ahora.
-* Que sigas desarrollando tus habilidades de trabajo en equipo. Mientras más
-personas en un equipo de trabajo, mayor complejidad para: tener un entendimiento
-común, seguir el flujo de trabajo, buscar consensos, etc.
+ * COMO: Amante del cine y conocedor
+   QUIERO: Conocer los estrenos más recientes de las películas que han sido premiadas
+   PARA: Poder escoger que película ver
 
- ## **Parte Obligatoria**
+ * COMO: Entusiasta del cine y consumidor asiduo de películas
+   QUIERO: Buscar películas específicas para conocer los premios que ha ganado
+   PARA: Poder escoger que película ver
 
- * Todo el planeamiento del trabajo deberá ser detallado en un repositorio único
-por _squad_ en el que se presente el _planning_, el _research_, los _sketches_
-y las inspiraciones utilizadas para definir el producto.
-* Además, deberás detallar en el archivo _readme_, qué hizo cada una en el
-proyecto.
-* El producto deberá presentarse publicado en github pages.
+* COMO: Consumidor de cine y amante de la música
+  QUIERO: Poder filtrar las películas que han sido premiadas por año
+  PARA: Poder escoger que película ver
+  
 
- ## **Consideraciones técnicas**
+ ## **Referencias visuales**
 
- * El diseño visual de los componentes es de libre elección de las estudiantes,
-sin embargo, si no quieren crearlo desde cero, pueden utilizar el que
-propuso [Walmart](https://drive.google.com/file/d/0B6GBtl-gO6LwaVprQkFqTGI2a28/view).
-* Deberán usar al menos un framework de css.
-## **Reglas de las presentaciones:**
+ ![referencia-uno](img/referencia-1.jpeg)
 
-* Cada squad tendrá 5 minutos para presentar su demo y 5 minutos para recibir preguntas.
+ ![referencia-dos](img/referencia-2.jpeg)
 
-* Las personas que presentan en la primera presentación no deben ser las mismas de la presentación fin
+ ![referencia-tres](img/referencia-3.jpeg)
 
-## **Horario**
+ 
+## **Guía de estilos**
 
-|       |   Lunes           |  Martes                      |Miércoles                      | Jueves                                |
-|------ | ------------------| ---------------------------- | ----------------------------- | ------------------------------------- |
-| 8:00  |  Kick off hackaton|  Daily por squad             |  Daily por squad              | Daily por squad                       |
-| 9:00  |  Sesión de planificación|  Hackeo                |  Hackeo                       | Hackeo/Detalles finales               |         
-| 10:00 |  Hackeo|          |  Compartir link de aplicación|                               | Inscripción de aplicaciones           |
-| 11:00 |                   |  Presentación y Feedback     |                               | Feria de demostraciones               |           
-| 12:00 |                   |                              |                               | Presentación de mejores squads        |
-|>13:00 |                   |                              |                               | Deliberación del jurado               |
-| 20:00 |                   |                              |                               |                                       |
+**Paleta de colores**
+
+![paleta-de-colores](img/paleta-de-colores.png)
+
+
+## **Entrevistas con potenciales usuarios**
 
 ## **Tips para la organización de trabajo entre UX y Front end**
 
