@@ -1,3 +1,13 @@
+/*---Header---*/
+header {
+    background-color:#0F1329;
+}
+nav img {
+    max-width: 30px;
+}
+
+
+
 .container {
     text-align: center;
     margin: 0 auto;
