@@ -1,24 +1,100 @@
-.container {
-    text-align: center;
-    margin: 0 auto;
-    font-weight: 300;
+body {
+    background-color: #141730;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    color: #fff
+}
+
+p {
+    color: #fff;
+    font-family: "Fira Sans", sans-serif;
+    margin-bottom: 0rem;
+}
+.small-text {
+    font-size: 12px;
+    color: #249A90;
+}
+
+.bg-dark {
+   background-color: #11142b !important; 
 }
 
 .container img {
-    max-width: 200px;
-    border: 2x solid grey;
-    border-radius: 5px;
+    max-width: 100%;
+    max-height: 370px;
+    border-radius: 20px;
 }
 
-button {
-    color: white;
-    background-color: darkslategray;
-    border-radius: 30px;
-    padding: 10px 20px;
-    transition: 0.35s ease-in-out;
+.card {
+    background-color: #11142b;
+}
+.card-body {
+    padding: 0.5rem;
+}
+
+/*----Subcribe----*/
+section {
+    padding: 100px 0;
+    text-align: center;
+}
+select.frecuency {
+    border: none;
+    font-style: italic;
+    background-color: transparent;
     cursor: pointer;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition: -webkit-transform .35s ease-in;
+    transition: -webkit-transform .35s ease-in;
+    border-bottom: none;
+}
+select.frecuency:focus {
+    outline: none;
+    border-bottom: 5px solid #39b3d7;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+    -webkit-transition: -webkit-transform .35s ease-in;
+    transition: -webkit-transform .35s ease-in;
+}
+.free {
+    text-transform: uppercase;
+}
+.input-group {
+    margin: 20px auto 5px;
+    width: 100%;
+}
+input.btn.btn-lg,
+input.btn.btn-lg:focus {
+    background-color: aliceblue;
+    outline: none;
+    width: 60%;
+    height: 43px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+button.btn {
+    width: 40%;
+    height: 43px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.promise {
+    color: #999;
+}
+.btn-lg {
+    font-size: 12px;
 }
 
-button:hover {
-    background-color: black;
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+    .container img {
+        max-width: auto;
+        max-height: none;
+    }
 }
