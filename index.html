@@ -9,38 +9,64 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet" />
 </head>
-<body>
-    <!--Main Header-->
-    <header>
-        <h1>Pop Movies Title</h1>
-    </header>
-    <!--FIN Main Header -->
+<body cz-shortcut-listen="true">
+    <!--Inicio Nav Bar-->
 
-    <!--Barra se selectores-->
-    <section>
-        <!--Buscador películas premiadas-->
-        <div>
-            Pelicula: <input type="text" name="movie-search" id="movie-search"> 
-            <!--Año: <input type="text" name="pelicula" id="year">-->
-            <button id="search">Buscar Movie</button>
-        </div>
-        <!--Selector películas -->
-        <div>
-            <select name="year-select" id="year-select">
-                <option selected disabled value>Seleccione año</option>
-                <option value="0">2010</option>
-                <option value="1">2011</option>
-                <option value="2">2012</option>
-                <option value="3">2013</option>
-                <option value="4">2014</option>
-                <option value="5">2015</option>
-                <option value="6">2016</option>
-                <option value="7">2017</option>
-                <option value="8">2018</option>
-            </select>
-        </div>
-    </section>
-    <!--FIN Barra de selectores-->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a href="index.html"><img src="images/logo-topmovies.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link disabled" href="#"><img src="images/facebook.png" alt="Facebook"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#"><img src="images/instagram.png" alt="Instagram"></a>
+                </li>
+      
+              </ul>
+            </div>
+          </nav>
+    
+    <!--FIN Nav Bar -->
+
+
+        <!--Barra se selectores-->
+        <section>
+                <!--Buscador películas premiadas-->
+                <div>
+                    Pelicula: <input type="text" name="movie-search" id="movie-search"> 
+                    <!--Año: <input type="text" name="pelicula" id="year">-->
+                    <button id="search">Buscar Movie</button>
+                </div>
+                <!--Selector películas -->
+                <div>
+                    <select name="year-select" id="year-select">
+                        <option selected disabled value>Seleccione año</option>
+                        <option value="0">2010</option>
+                        <option value="1">2011</option>
+                        <option value="2">2012</option>
+                        <option value="3">2013</option>
+                        <option value="4">2014</option>
+                        <option value="5">2015</option>
+                        <option value="6">2016</option>
+                        <option value="7">2017</option>
+                        <option value="8">2018</option>
+                    </select>
+                </div>
+            </section>
+            <!--FIN Barra de selectores-->
+    
+
+
     
 <!--Container para mostrar cartas-->
  <div class="album py-5 bg-dark">
@@ -52,9 +78,8 @@
 
 <footer class="container mt-auto py-5">
         <div class="row">
-        
           <div class="col-5">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24" focusable="false"><title>Product</title><circle cx="12" cy="12" r="10"></circle><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"></path></svg>
+            <a href="index.html"><img src="images/logo-topmovies.png" alt="logo"></a>
             <small class="d-block mb-3 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</small>
           </div>
           <div class="col-3">
