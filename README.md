@@ -2,16 +2,18 @@
 
  ## Índice
 
-* [Preámbulo](#preámbulo)
 * [Presentación de la página web](#POPMOVIES)
+* [Preámbulo](#preámbulo)
 * [Investigación de Usuario](#cinvestigación-de-usuario)
 * [Historias de Usuario](#Historias-de-Usuario)
 * [Referencias visuales](#Referencias-visuales)
 * [Guía de estilos](#Guía-de-estilos)
+* [Primera iteración](#Primera-iteración)
+
 
  ***
-
- ## **Preámbulo**
+ ## **POPMOVIES**
+ 
 
  Con la aparición de plataformas para ver películas en la nube, como Netflix o
 Hulu, ver películas desde donde estés, comiendo lo que quieras
@@ -20,22 +22,25 @@ canchita / cabritas), parando si es necesario, teniendo acceso a una cantidad
 abrumadora de películas... ha cambiado la experiencia del usuario
 y modificado el mercado de las películas a nivel global.
 
+Pensando en las crecientes necesidades de los usuarios que consumen películas regularmente, hemos creado POPMOVIES, una página web que permite filtrar las películas según los premios que estas han recibido. Esta dirigida a un usuario conocedo y amante del cine, con estándares de calidad altos en cuanto al producto que consume.
 
- ## **POPMOVIES**
+![explain](https://media.giphy.com/media/nuuS1IlKqd2dq/giphy.gif)
 
- ![explain](https://media.giphy.com/media/nuuS1IlKqd2dq/giphy.gif)
+## **Preámbulo**
 
-Pensando en las crecientes necesidades de los usuarios que consumen películas regularmente, hemos creado POPMOVIES, una página web que permite filtrar las películas según los premios que estas han recibido. Esta dirigida a un usuario 
+
+ 
+
 
  ## **Investigación de usuario**
 
-* Como un primer acercamiento para conocer al usuario realizamos una encuesta con un muestreo de 30 personas.
+* Como un primer acercamiento para conocer al usuario realizamos una encuesta con un muestreo de 29 personas.
  
 [Encuesta](https://docs.google.com/forms/d/e/1FAIpQLSe2d9NFO8auWaLvLg-drgCDPLfH6nzCC7Dk51G0cgnDNekDxg/viewform?usp=sf_link)
 
 **Análisis encuesta**
 
-De un muestreo total de 29 usuarios un 34,5% considera las premiaciones de las películas para decidir si verlas o no, este es el usuario al que apuntaremos como público objetivo de nuestra página web. Decidimos también que nuestros filtros de premiaciones se basaran en las categorías  de los Oscars, ya que fueron los más votados con un 75,9% por sobre otros galardones como los BAFTA, Golden globes, SAG y Goya. La categoría más votada como relevante en cuanto a las premiaciones fue el premio a mejor película, con un 48,3%, por lo tanto este será nuestro filtro disponible para los usuarios de la plataforma
+De un muestreo total de 29 usuarios un 34,5% considera las premiaciones de las películas para decidir si verlas o no, este es el usuario al que apuntaremos como público objetivo de nuestra página web. Decidimos también que nuestros filtros de premiaciones se basaran en las categorías  de los Oscars, ya que fueron los más votados con un 75,9% por sobre otros galardones como los BAFTA, Golden globes, SAG y Goya. La categoría más votada como relevante en cuanto a las premiaciones fue el premio a mejor película, con un 48,3%, por lo tanto este será nuestro filtro disponible para los usuarios de la plataforma.
 
 ![grafico-uno](img/grafico-1.jpeg)
 
@@ -43,6 +48,9 @@ De un muestreo total de 29 usuarios un 34,5% considera las premiaciones de las p
 
 ![grafico-tres](img/grafico-3.jpeg)
 
+**Definición de Usuario**
+
+Estamos apuntando a un usuario tipo que es un asiduo consumidor de cine en plataformas online, es una persona con un gusto especial por el cine, puede tomarlo como un hobby o pasatiempo o como una disciplina seria, de cualquier forma el usuario se considera a sí mismo como un experto en la materia, es por esto que considera relevante ver películas que han sido aclamadas por la crítica, ya que se considera a sí mismo como parte de la crítica.
 
  ## **Historias de usuario**
 
@@ -54,7 +62,7 @@ De un muestreo total de 29 usuarios un 34,5% considera las premiaciones de las p
    QUIERO: Buscar películas específicas para conocer los premios que ha ganado
    PARA: Poder escoger que película ver
 
-* COMO: Consumidor de cine y amante de la música
+* COMO: Consumidor de cine 
   QUIERO: Poder filtrar las películas que han sido premiadas por año
   PARA: Poder escoger que película ver
   
@@ -72,12 +80,9 @@ De un muestreo total de 29 usuarios un 34,5% considera las premiaciones de las p
 
 **Paleta de colores**
 
-![paleta-de-colores](img/paleta-de-colores.png)
+![paleta-de-colores-2](img/paleta-de-colores.png)
 
-
-## **Entrevistas con potenciales usuarios**
-
-## **Logos tentativos**
+**Logos**
 
 ![logo-uno](img/logo1.png)
 
@@ -87,13 +92,17 @@ De un muestreo total de 29 usuarios un 34,5% considera las premiaciones de las p
 
 ![logo-cuatro](img/logo4.png)
 
-* Las UX y FE entienden en conjunto el reto en el que van a trabajar, se organizan y arman sus primeros bocetos.
-* Con los primeros bocetos/ideas, las FE pasan a crear su ambiente de desarrollo y a crear componentes atómicos que luego les sea fácil personalizar con CSS y utilizar para crear interfaces más complejas. Además, las FE empiezan también a trabajar en la lógica de la aplicación. Mientras tanto, las UX crean una guía de estilos, los flujos de usuarios, hacen un prototipo más completo y lo testean.
-* Las UX comparten el prototipo testeado, para que el equipo empiece a personalizar los componentes y a ponerlos en conjunto.
-* Las UX hacen QA y testing con los releases que vayan haciendo las FE.
-* Planifiquen, historias de usuario y definition of done son importantísimos.
-* Usen las ceremonias ágiles para saber en que van como equipo, dailys y retrospectivas diarias son esenciales.
-* Iteren, iteren, iteren.
+![logo-final](img/logofinal.png)
+
+## **Primera iteración**
+
+![iteración1](img/primera-iteración-1.jpeg)
+
+![iteración2](img/primera-iteración-2.jpeg)
+
+![iteración3](img/primera-iteración-3.jpeg)
+
+## **Logos tentativos**
 
 ## **¿Qué es la Feria de demos?**
 
