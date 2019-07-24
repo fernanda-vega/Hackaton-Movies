@@ -54,7 +54,7 @@ yearSelector.addEventListener("change", ()=>{
   
 //Geting data from API
   const obtainDataJson = (title) => {
-    fetch('http://www.omdbapi.com/?t=' + title + "&apikey=4a33a137")
+    fetch('https://www.omdbapi.com/?t=' + title + "&apikey=4a33a137")
       .then(response => response.json())
       .then(dataMovies => {
         dataMoviesProperties = {
@@ -84,13 +84,13 @@ yearSelector.addEventListener("change", ()=>{
   
 
   //se consulta el api por el nombre o año se usa el tipo search que deveulve un arreglo de peliculas
-  fetch('http://www.omdbapi.com/?apikey=9cf43fbb&s='+encodeURI(movieSearch) + '&plot=full').then(response => response.json()).then(data => {
+  fetch('https://www.omdbapi.com/?apikey=9cf43fbb&s='+encodeURI(movieSearch) + '&plot=full').then(response => response.json()).then(data => {
     if(data.Response !== 'False'){ // se verifica que la consulta traiga registros
       //console.log(data.Response)
       for (var i = 0; i < data.Search.length; i++) {
         //se itera sobre el arreglo de peliculas hasta el tamaño del arreglo
         //por cada elemento del arreglo consulta el api usando el atributo imdbID
-        fetch('http://www.omdbapi.com/?apikey=9cf43fbb&i='+encodeURI(data.Search[i].imdbID)).then(response2 => response2.json()).then(data2 => {
+        fetch('https://www.omdbapi.com/?apikey=9cf43fbb&i='+encodeURI(data.Search[i].imdbID)).then(response2 => response2.json()).then(data2 => {
           if(data2.Awards !== "N/A"){ 
             console.log(data2);
             cardContainer = "";
