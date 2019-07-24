@@ -17,6 +17,9 @@ p {
     font-size: 12px;
     color: #249A90;
 }
+.rose-text{
+    color: #E35A68;
+}
 
 .bg-dark {
    background-color: #11142b !important; 

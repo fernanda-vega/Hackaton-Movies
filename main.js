@@ -79,9 +79,8 @@ function apiCallSearch() {
 
 
 //se consulta el api por el nombre o año se usa el tipo search que deveulve un arreglo de peliculas
-fetch('http://www.omdbapi.com/?apikey=9cf43fbb&s='+encodeURI(movieSearch) + '&plot=full').then(response => response.json()).then(data => {
+fetch('http://www.omdbapi.com/?apikey=9cf43fbb&s=' + encodeURI(movieSearch) + '&plot=full').then(response => response.json()).then(data => {
   if(data.Response !== 'False'){ // se verifica que la consulta traiga registros
-    //console.log(data.Response)
     for (var i = 0; i < data.Search.length; i++) {
       //se itera sobre el arreglo de peliculas hasta el tamaño del arreglo
       //por cada elemento del arreglo consulta el api usando el atributo imdbID
@@ -95,23 +94,20 @@ fetch('http://www.omdbapi.com/?apikey=9cf43fbb&s='+encodeURI(movieSearch) + '&pl
             <img class="bd-placeholder-img card-img-top" src="${data2.Poster}" alt="No Poster">
           
           <div class="card-body">
-            <span class="card-text">${data2.Title}</span>
-            <p class="card-text">${data2.Year}</p>
+          <p class="card-text small-text">${data2.Year} / ${data2.Genre}</p>
+            <p class="card-text">${data2.Title}</p>
+            <p class="card-text small-text rose-text">${data2.Awards}</p>
           </div>
           </div>
         </div>`;
         cardContainer.insertAdjacentHTML("beforeend", card);
-              }
+        }
       }).catch(error => console.error(error)) // muestra en la consola cualquier error que suceda
-
     }
-    
-
-  }else {
+  }
+  else {
     console.log('No hay peliculas'); // si no hay peliculas muestra este mensaje
   }
 }).catch(error => console.error(error))// muestra en la consola cualquier error que suceda
-
-
 }
 document.getElementById('search').addEventListener("click",apiCallSearch); // se llama a la funcion apiCall cuando le del click al boton
