@@ -73,6 +73,8 @@ const obtainMovies = (arraySelected) => {
 }
 
 function apiCallSearch() {
+  let cardContainer = document.getElementById('movie-container');
+  cardContainer.innerHTML = "";
   let movieSearch = document.getElementById('movie-search').value; //se toma el valor del texto de la pelicula
 
 
