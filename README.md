@@ -77,7 +77,15 @@ De un muestreo total de 29 usuarios un 34,5% considera las premiaciones de las p
 
 ## **Entrevistas con potenciales usuarios**
 
-## **Tips para la organización de trabajo entre UX y Front end**
+## **Logos tentativos**
+
+![logo-uno](img/logo1.png)
+
+![logo-dos](img/logo2.png)
+
+![logo-tres](img/logo3.png)
+
+![logo-cuatro](img/logo4.png)
 
 * Las UX y FE entienden en conjunto el reto en el que van a trabajar, se organizan y arman sus primeros bocetos.
 * Con los primeros bocetos/ideas, las FE pasan a crear su ambiente de desarrollo y a crear componentes atómicos que luego les sea fácil personalizar con CSS y utilizar para crear interfaces más complejas. Además, las FE empiezan también a trabajar en la lógica de la aplicación. Mientras tanto, las UX crean una guía de estilos, los flujos de usuarios, hacen un prototipo más completo y lo testean.
