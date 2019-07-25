@@ -38,7 +38,6 @@ const drawnCards = (movie) => {
   cardContainer.insertAdjacentHTML("beforeend", card);
 };
 
-
 //Showing List Data
 const showCards = (moviesList) => {
   cardContainer.innerHTML = "";
@@ -115,3 +114,11 @@ fetch('http://www.omdbapi.com/?apikey=9cf43fbb&s=' + encodeURI(movieSearch) + '&
 }).catch(error => console.error(error))// muestra en la consola cualquier error que suceda
 }
 document.getElementById('search').addEventListener("click",apiCallSearch); // se llama a la funcion apiCall cuando le del click al boton
+
+//se muestra cartas al cargar la página
+window.addEventListener('load', ()=>{
+  const arraySelected = ["Green Book", 'Black Panther', 'BlacKkKlansman', 'Bohemian Rhapsody', 'The Favourite', 'Roma', 'A Star is Born','Vice'];
+  selectedMovies = [];
+  obtainMovies(arraySelected);
+  movieTitle.innerHTML = "Películas ganadoras a Mejor Película en el año 2018";
+ });
