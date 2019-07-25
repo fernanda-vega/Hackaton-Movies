@@ -41,7 +41,7 @@ const drawnCards = (movie) => {
 //Showing List Data
 const showCards = (moviesList) => {
   cardContainer.innerHTML = "";
-  movieTitle.innerHTML = "Películas ganadoras a Mejor Película en el año " + yearSelector.options[yearSelector.selectedIndex].text;
+  movieTitle.innerHTML = "Películas nominadas a Mejor Película en el año " + yearSelector.options[yearSelector.selectedIndex].text;
   document.getElementById("title-movies").style.display = "block";
   moviesList.forEach(element => {
     drawnCards(element);
@@ -120,5 +120,4 @@ window.addEventListener('load', ()=>{
   const arraySelected = ["Green Book", 'Black Panther', 'BlacKkKlansman', 'Bohemian Rhapsody', 'The Favourite', 'Roma', 'A Star is Born','Vice'];
   selectedMovies = [];
   obtainMovies(arraySelected);
-  movieTitle.innerHTML = "Películas ganadoras a Mejor Película en el año 2019";
  });
