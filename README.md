@@ -1,17 +1,18 @@
-# "Hackathon" de final de _Common Core_, películas
-
  ## Índice
 
-* [Preámbulo](#preámbulo)
 * [Presentación de la página web](#POPMOVIES)
 * [Investigación de Usuario](#cinvestigación-de-usuario)
 * [Historias de Usuario](#Historias-de-Usuario)
 * [Referencias visuales](#Referencias-visuales)
 * [Guía de estilos](#Guía-de-estilos)
+* [Primera iteración](#Primera-iteración)
+* [Prototipo de alta fidelidad](#Prototipo-de-alta-fidelidad)
+* [Evaluación Heurística](#Evaluación-Heurística)
+* [Segunda Iteración](#Segunda-Iteración)
 
  ***
-
- ## **Preámbulo**
+ ## **POPMOVIES**
+ 
 
  Con la aparición de plataformas para ver películas en la nube, como Netflix o
 Hulu, ver películas desde donde estés, comiendo lo que quieras
@@ -20,22 +21,19 @@ canchita / cabritas), parando si es necesario, teniendo acceso a una cantidad
 abrumadora de películas... ha cambiado la experiencia del usuario
 y modificado el mercado de las películas a nivel global.
 
+Pensando en las crecientes necesidades de los usuarios que consumen películas regularmente, hemos creado POPMOVIES, una página web que permite filtrar las películas según los premios que estas han recibido. Esta dirigida a un usuario conocedo y amante del cine, con estándares de calidad altos en cuanto al producto que consume.
 
- ## **POPMOVIES**
-
- ![explain](https://media.giphy.com/media/nuuS1IlKqd2dq/giphy.gif)
-
-Pensando en las crecientes necesidades de los usuarios que consumen películas regularmente, hemos creado POPMOVIES, una página web que permite filtrar las películas según los premios que estas han recibido. Esta dirigida a un usuario 
+![explain](https://media.giphy.com/media/nuuS1IlKqd2dq/giphy.gif)
 
  ## **Investigación de usuario**
 
-* Como un primer acercamiento para conocer al usuario realizamos una encuesta con un muestreo de 30 personas.
+* Como un primer acercamiento para conocer al usuario realizamos una encuesta con un muestreo de 29 personas.
  
 [Encuesta](https://docs.google.com/forms/d/e/1FAIpQLSe2d9NFO8auWaLvLg-drgCDPLfH6nzCC7Dk51G0cgnDNekDxg/viewform?usp=sf_link)
 
 **Análisis encuesta**
 
-De un muestreo total de 29 usuarios un 34,5% considera las premiaciones de las películas para decidir si verlas o no, este es el usuario al que apuntaremos como público objetivo de nuestra página web. Decidimos también que nuestros filtros de premiaciones se basaran en las categorías  de los Oscars, ya que fueron los más votados con un 75,9% por sobre otros galardones como los BAFTA, Golden globes, SAG y Goya. La categoría más votada como relevante en cuanto a las premiaciones fue el premio a mejor película, con un 48,3%, por lo tanto este será nuestro filtro disponible para los usuarios de la plataforma
+De un muestreo total de 29 usuarios un 34,5% considera las premiaciones de las películas para decidir si verlas o no, este es el usuario al que apuntaremos como público objetivo de nuestra página web. Decidimos también que nuestros filtros de premiaciones se basaran en las categorías  de los Oscars, ya que fueron los más votados con un 75,9% por sobre otros galardones como los BAFTA, Golden globes, SAG y Goya. La categoría más votada como relevante en cuanto a las premiaciones fue el premio a mejor película, con un 48,3%, por lo tanto este será nuestro filtro disponible para los usuarios de la plataforma.
 
 ![grafico-uno](img/grafico-1.jpeg)
 
@@ -43,8 +41,11 @@ De un muestreo total de 29 usuarios un 34,5% considera las premiaciones de las p
 
 ![grafico-tres](img/grafico-3.jpeg)
 
+**Definición de Usuario**
 
- ## **Historias de usuario**
+Estamos apuntando a un usuario tipo que es un asiduo consumidor de cine en plataformas online, es una persona con un gusto especial por el cine, puede tomarlo como un hobby o pasatiempo o como una disciplina seria, de cualquier forma el usuario se considera a sí mismo como un experto en la materia, es por esto que considera relevante ver películas que han sido aclamadas por la crítica, ya que se considera a sí mismo como parte de la crítica.
+
+## **Historias de usuario**
 
  * COMO: Amante del cine y conocedor
    QUIERO: Conocer los estrenos más recientes de las películas que han sido premiadas
@@ -54,7 +55,7 @@ De un muestreo total de 29 usuarios un 34,5% considera las premiaciones de las p
    QUIERO: Buscar películas específicas para conocer los premios que ha ganado
    PARA: Poder escoger que película ver
 
-* COMO: Consumidor de cine y amante de la música
+* COMO: Consumidor de cine 
   QUIERO: Poder filtrar las películas que han sido premiadas por año
   PARA: Poder escoger que película ver
   
@@ -72,12 +73,9 @@ De un muestreo total de 29 usuarios un 34,5% considera las premiaciones de las p
 
 **Paleta de colores**
 
-![paleta-de-colores](img/paleta-de-colores.png)
+![paleta-de-colores-2](img/paleta-de-colores.png)
 
-
-## **Entrevistas con potenciales usuarios**
-
-## **Logos tentativos**
+**Logos**
 
 ![logo-uno](img/logo1.png)
 
@@ -87,17 +85,82 @@ De un muestreo total de 29 usuarios un 34,5% considera las premiaciones de las p
 
 ![logo-cuatro](img/logo4.png)
 
-* Las UX y FE entienden en conjunto el reto en el que van a trabajar, se organizan y arman sus primeros bocetos.
-* Con los primeros bocetos/ideas, las FE pasan a crear su ambiente de desarrollo y a crear componentes atómicos que luego les sea fácil personalizar con CSS y utilizar para crear interfaces más complejas. Además, las FE empiezan también a trabajar en la lógica de la aplicación. Mientras tanto, las UX crean una guía de estilos, los flujos de usuarios, hacen un prototipo más completo y lo testean.
-* Las UX comparten el prototipo testeado, para que el equipo empiece a personalizar los componentes y a ponerlos en conjunto.
-* Las UX hacen QA y testing con los releases que vayan haciendo las FE.
-* Planifiquen, historias de usuario y definition of done son importantísimos.
-* Usen las ceremonias ágiles para saber en que van como equipo, dailys y retrospectivas diarias son esenciales.
-* Iteren, iteren, iteren.
+![logo-final](img/logofinal.png)
 
-## **¿Qué es la Feria de demos?**
+## **Primera iteración**
 
-La feria de demos se realizará el día de las presentaciones, consiste en la dinámica de “speed dating”, cada squad presentará su demo durante 3 minutos a un grupo de personas, entre ellos los jurados de la Hackathon. Luego de los 3 minutos sonará una chicharra y el grupo de personas rotará al siguiente squad, de esta forma deberán presentar durante una hora. 
+![iteración1](img/primera-iteración-1.jpeg)
 
-* Las demos no deben durar más de 3 minutos y deben mostrar el producto y las tecnologías usadas.
-* Los asistentes van a votar por los 4 equipos finalistas, quienes tendrán la oportunidad de hacer su demo a todo el público para poder elegir un ganador. 
+![iteración2](img/primera-iteración-2.jpeg)
+
+![iteración3](img/primera-iteración-3.jpeg)
+
+## **Test de usabilidad**
+
+Entrevistador: 
+Fecha:
+Sitio Web: 
+
+**NOTA para la aplicación prueba:** 
+- Entregar todas las instrucciones de forma simple y repetitiva. 
+- Mantener una actitud paciente con el usuario, evitando “caras” de impaciencia, enojo, preocupación o cualquier gesto que haga sentir mal o presionado al usuario 
+- Anotar todo lo posible 
+- Aparte de las instrucciones necesarias para completar la prueba, no se deben entregar pistas al usuario de lo que tiene que hacer cuando navegue el sitio web. 
+
+ <Nombre usuario>, agradecemos tu disposición de participar en esta “Prueba de Usabilidad”  que nos ayudará a detectar problemas en el sitio que desarrollamos.  Es importante que sepas que ésta prueba solo busca medir la usabilidad de nuestro sitio y no tu desempeño en el. Vamos a comenzar con algunas preguntas que nos permitirán saber quién eres y cómo utilizas Internet. 
+
+#### Presentación del Usuario
+1. ¿Cual es su nombre? 
+2. ¿A qué se dedica [Profesión, Actividad]? 
+3. ¿Te consideras un consumidor recurrente de películas? 
+4. ¿Visitas sitios que traten sobre cine?, Si es así ¿Que tan seguido? 
+5. ¿Que consideras al momento de escoger que película ver?
+
+
+#### Identidad
+*estas preguntas se realizaran luego de que el usuario observe la pantalla inicial y antes de que interactue con cualquier función de la página*
+
+1. ¿Con la información entregada en la pantalla, puedes identificar con que marca o corporación se relaciona la aplicación web? ¿Como lo sabes?
+2. ¿Viste algún elemento gráfico que te ayudara a llegar a esta conclusión?
+3. ¿Relacionas los colores predominantes del sitio web con la marca?
+4. ¿Dintingues alguna imagen que identifique la marca, crees que esta información aparece en un lugar importante de la página?
+5. ¿Hacia que tipo de audiencia crees que esta dirigida la aplicación web y porque?
+
+#### Contenido
+*estas preguntas se deben realizar luego de que el usuario ya navegó a través de la página, a su ritmo, sin intervenciones del entrevistador*
+
+1. ¿Te parecen relevantes los contenidos que te ofrecen los botones al inicio de la pantalla?¿Si no es así, cuáles te interesarían?
+2. ¿Pudiste distinguir con una primera mirada el contenido más importante de la página? ¿cómo lo identificaste?
+3. ¿Los textos usados tanto en la página en general como en los botones son lo suficientemente descriptivos de lo que ofrecen al interactuar con ellos?
+
+#### Navegación
+
+1. ¿Lograste entender fácilmente la forma en que se navega por el sitio?
+2. ¿Te queda claro cómo volver atrás o como poder escoger otro filtro?
+3. ¿La información que te ofrece la pantalla es clara en cuanto a en qué lugar del sitio estas o te sentiste perdido dentro del sitio?
+
+#### Gráfica Web
+
+1. ¿Te parece adecuada la forma en la que se presentan las imágenes dentro del sitio web?, ¿represetan el contenido del sitio?
+2. ¿Sentiste que las imágenes se demoraban en cargar o que el sitio era muy lento?
+3. ¿Consideras que gráficamente el sitio esta equilibrado, recargado o muy simple?
+
+#### Utilidad
+
+1. ¿Tras la primera mirada, te queda claro el objetivo del sitio y los contenidos que ofrece?, ¿Podrías mencionarlos?
+2. ¿Crees que estos contenido y servicios son de utilidad para ti?
+3. ¿Que te llamó la atención positiva o negativamente de la utilidad del sitio web?
+
+## **Prototipo de alta fidelidad**
+
+[Prototipo]("https://www.figma.com/file/HzJR8U9LjS2wEF3keXtPzx/Untitled?node-id=0%3A1")
+
+## **Evaluación Heurística**
+
+[Evaluación]("https://docs.google.com/spreadsheets/d/1QeSxMuLWxxbM61vpMMwFgBs0ikwIy8odMzy-XL2vKlE/edit#gid=0")
+
+**Conclusiones**
+
+Luego de aplicar la evaluación pudimos establecer la prioridad de los que cambios que debíamos hacer en las siguientes iteraciones, como aplicar la paleta de colores definida para el sitio, incorporar el logo, reubicar los elementos siguiendo el principio de repetición. También decidimos darle dinámismo incorporando un carrousel para mostrar todas las películas que se requería mostrar. También centramos el contenido e incluimos un footer que siguiera con las convenciones de los sitios web que analizamos en nuestra primera investigación.
+
+## **Segunda Iteración**
