@@ -1,15 +1,14 @@
-# "Hackathon" de final de _Common Core_, películas
-
  ## Índice
 
 * [Presentación de la página web](#POPMOVIES)
-* [Preámbulo](#preámbulo)
 * [Investigación de Usuario](#cinvestigación-de-usuario)
 * [Historias de Usuario](#Historias-de-Usuario)
 * [Referencias visuales](#Referencias-visuales)
 * [Guía de estilos](#Guía-de-estilos)
 * [Primera iteración](#Primera-iteración)
-
+* [Prototipo de alta fidelidad](#Prototipo-de-alta-fidelidad)
+* [Evaluación Heurística](#Evaluación-Heurística)
+* [Segunda Iteración](#Segunda-Iteración)
 
  ***
  ## **POPMOVIES**
@@ -25,12 +24,6 @@ y modificado el mercado de las películas a nivel global.
 Pensando en las crecientes necesidades de los usuarios que consumen películas regularmente, hemos creado POPMOVIES, una página web que permite filtrar las películas según los premios que estas han recibido. Esta dirigida a un usuario conocedo y amante del cine, con estándares de calidad altos en cuanto al producto que consume.
 
 ![explain](https://media.giphy.com/media/nuuS1IlKqd2dq/giphy.gif)
-
-## **Preámbulo**
-
-
- 
-
 
  ## **Investigación de usuario**
 
@@ -52,7 +45,7 @@ De un muestreo total de 29 usuarios un 34,5% considera las premiaciones de las p
 
 Estamos apuntando a un usuario tipo que es un asiduo consumidor de cine en plataformas online, es una persona con un gusto especial por el cine, puede tomarlo como un hobby o pasatiempo o como una disciplina seria, de cualquier forma el usuario se considera a sí mismo como un experto en la materia, es por esto que considera relevante ver películas que han sido aclamadas por la crítica, ya que se considera a sí mismo como parte de la crítica.
 
- ## **Historias de usuario**
+## **Historias de usuario**
 
  * COMO: Amante del cine y conocedor
    QUIERO: Conocer los estrenos más recientes de las películas que han sido premiadas
@@ -102,11 +95,72 @@ Estamos apuntando a un usuario tipo que es un asiduo consumidor de cine en plata
 
 ![iteración3](img/primera-iteración-3.jpeg)
 
-## **Logos tentativos**
+## **Test de usabilidad**
 
-## **¿Qué es la Feria de demos?**
+Entrevistador: 
+Fecha:
+Sitio Web: 
 
-La feria de demos se realizará el día de las presentaciones, consiste en la dinámica de “speed dating”, cada squad presentará su demo durante 3 minutos a un grupo de personas, entre ellos los jurados de la Hackathon. Luego de los 3 minutos sonará una chicharra y el grupo de personas rotará al siguiente squad, de esta forma deberán presentar durante una hora. 
+**NOTA para la aplicación prueba:** 
+- Entregar todas las instrucciones de forma simple y repetitiva. 
+- Mantener una actitud paciente con el usuario, evitando “caras” de impaciencia, enojo, preocupación o cualquier gesto que haga sentir mal o presionado al usuario 
+- Anotar todo lo posible 
+- Aparte de las instrucciones necesarias para completar la prueba, no se deben entregar pistas al usuario de lo que tiene que hacer cuando navegue el sitio web. 
 
-* Las demos no deben durar más de 3 minutos y deben mostrar el producto y las tecnologías usadas.
-* Los asistentes van a votar por los 4 equipos finalistas, quienes tendrán la oportunidad de hacer su demo a todo el público para poder elegir un ganador. 
+ <Nombre usuario>, agradecemos tu disposición de participar en esta “Prueba de Usabilidad”  que nos ayudará a detectar problemas en el sitio que desarrollamos.  Es importante que sepas que ésta prueba solo busca medir la usabilidad de nuestro sitio y no tu desempeño en el. Vamos a comenzar con algunas preguntas que nos permitirán saber quién eres y cómo utilizas Internet. 
+
+#### Presentación del Usuario
+1. ¿Cual es su nombre? 
+2. ¿A qué se dedica [Profesión, Actividad]? 
+3. ¿Te consideras un consumidor recurrente de películas? 
+4. ¿Visitas sitios que traten sobre cine?, Si es así ¿Que tan seguido? 
+5. ¿Que consideras al momento de escoger que película ver?
+
+
+#### Identidad
+*estas preguntas se realizaran luego de que el usuario observe la pantalla inicial y antes de que interactue con cualquier función de la página*
+
+1. ¿Con la información entregada en la pantalla, puedes identificar con que marca o corporación se relaciona la aplicación web? ¿Como lo sabes?
+2. ¿Viste algún elemento gráfico que te ayudara a llegar a esta conclusión?
+3. ¿Relacionas los colores predominantes del sitio web con la marca?
+4. ¿Dintingues alguna imagen que identifique la marca, crees que esta información aparece en un lugar importante de la página?
+5. ¿Hacia que tipo de audiencia crees que esta dirigida la aplicación web y porque?
+
+#### Contenido
+*estas preguntas se deben realizar luego de que el usuario ya navegó a través de la página, a su ritmo, sin intervenciones del entrevistador*
+
+1. ¿Te parecen relevantes los contenidos que te ofrecen los botones al inicio de la pantalla?¿Si no es así, cuáles te interesarían?
+2. ¿Pudiste distinguir con una primera mirada el contenido más importante de la página? ¿cómo lo identificaste?
+3. ¿Los textos usados tanto en la página en general como en los botones son lo suficientemente descriptivos de lo que ofrecen al interactuar con ellos?
+
+#### Navegación
+
+1. ¿Lograste entender fácilmente la forma en que se navega por el sitio?
+2. ¿Te queda claro cómo volver atrás o como poder escoger otro filtro?
+3. ¿La información que te ofrece la pantalla es clara en cuanto a en qué lugar del sitio estas o te sentiste perdido dentro del sitio?
+
+#### Gráfica Web
+
+1. ¿Te parece adecuada la forma en la que se presentan las imágenes dentro del sitio web?, ¿represetan el contenido del sitio?
+2. ¿Sentiste que las imágenes se demoraban en cargar o que el sitio era muy lento?
+3. ¿Consideras que gráficamente el sitio esta equilibrado, recargado o muy simple?
+
+#### Utilidad
+
+1. ¿Tras la primera mirada, te queda claro el objetivo del sitio y los contenidos que ofrece?, ¿Podrías mencionarlos?
+2. ¿Crees que estos contenido y servicios son de utilidad para ti?
+3. ¿Que te llamó la atención positiva o negativamente de la utilidad del sitio web?
+
+## **Prototipo de alta fidelidad**
+
+[Prototipo]("https://www.figma.com/file/HzJR8U9LjS2wEF3keXtPzx/Untitled?node-id=0%3A1")
+
+## **Evaluación Heurística**
+
+[Evaluación]("https://docs.google.com/spreadsheets/d/1QeSxMuLWxxbM61vpMMwFgBs0ikwIy8odMzy-XL2vKlE/edit#gid=0")
+
+**Conclusiones**
+
+Luego de aplicar la evaluación pudimos establecer la prioridad de los que cambios que debíamos hacer en las siguientes iteraciones, como aplicar la paleta de colores definida para el sitio, incorporar el logo, reubicar los elementos siguiendo el principio de repetición. También decidimos darle dinámismo incorporando un carrousel para mostrar todas las películas que se requería mostrar. También centramos el contenido e incluimos un footer que siguiera con las convenciones de los sitios web que analizamos en nuestra primera investigación.
+
+## **Segunda Iteración**

@@ -1,24 +1,100 @@
-.container {
-    text-align: center;
-    margin: 0 auto;
-    font-weight: 300;
+body {
+    background-color: #141730;
+    min-height: 75rem;
+    padding-top: 8.5rem
 }
 
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    color: #fff
+}
+
+p {
+    color: #fff;
+    font-family: "Fira Sans", sans-serif;
+    margin-bottom: 0rem;
+}
+.small-text {
+    font-size: 12px;
+    color: #249A90;
+}
+
+.bg-dark {
+   background-color: #11142b !important; 
+}
+
+/*----Header----*/
+.navbar{
+    padding: .5rem 3rem;
+}
+
+nav img {
+    max-width: 280px;
+    padding: 20px;
+}
+
+li img {
+    max-width: 20px;
+    padding: 0;
+}
+
+.navbar-nav {
+    align-items: center;
+}
+
+/*----Cards----*/
 .container img {
-    max-width: 200px;
-    border: 2x solid grey;
-    border-radius: 5px;
+    max-width: 100%;
+    max-height: 370px;
+    border-radius: 20px;
 }
 
-button {
-    color: white;
-    background-color: darkslategray;
-    border-radius: 30px;
-    padding: 10px 20px;
-    transition: 0.35s ease-in-out;
-    cursor: pointer;
+.card {
+    background-color: #11142b;
+}
+.card-body {
+    padding: 0.5rem;
 }
 
-button:hover {
-    background-color: black;
+.col-5 img {
+        max-width: 180px;
+}
+
+/*----Subcribe----*/
+.input-group {
+    margin: 20px auto 5px;
+    width: 100%;
+}
+input.btn.btn-lg,
+input.btn.btn-lg:focus {
+    background-color: aliceblue;
+    outline: none;
+    width: 60%;
+    height: 43px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+button.btn {
+    width: 40%;
+    height: 43px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.promise {
+    color: #999;
+}
+.btn-lg {
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+    .container img {
+        max-width: auto;
+        max-height: none;
+    }
 }
