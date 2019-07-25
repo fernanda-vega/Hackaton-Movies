@@ -43,10 +43,10 @@
     <!--FIN Nav Bar -->
 
         <!--Caja de información-->
-        <div class="position-relative overflow-hidden p-3 p-md-2 m-md-2 text-center bg-image">
+        <div class="p-3 p-md-2 m-md-2 text-center bg-image">
                 <div class="col-md-5 p-lg-5 mx-auto my-5">
                   <h1 class="display-6 font-weight-normal">Mejores Películas de todos los tiempos</h1>
-                  <p class="lead font-weight-normal">Conoce sobre las películas nomidadas y premiadas a "Mejor Película" en los Oscars.
+                  <p class="lead font-weight-normal">Conoce sobre las películas nomidadas y premiadas a "Mejor Películas" en los Oscars.
                       <br>O busca entre todas las películas premiadas durante la historia del cine.</p>
                 </div>
                 <div class="product-device box-shadow d-none d-md-block"></div>
@@ -70,7 +70,7 @@
         <div class="year-selector">
             <label for="movie-search">Encuentra las películas premiadas a "Mejor Película"</label>
             <select class="btn btn-secondary dropdown-toggle " name="year-select" id="year-select">
-                <option class="dropdown-item" selected disabled value>Seleccione año</option>
+                <option class="dropdown-item" disabled value>Seleccione año</option>
                 <option class="dropdown-item"value="0">2010</option>
                 <option class="dropdown-item"value="1">2011</option>
                 <option class="dropdown-item"value="2">2012</option>
@@ -79,7 +79,7 @@
                 <option class="dropdown-item"value="5">2015</option>
                 <option class="dropdown-item"value="6">2016</option>
                 <option class="dropdown-item"value="7">2017</option>
-                <option class="dropdown-item"value="8">2018</option>
+                <option class="dropdown-item"value="8" selected >2018</option>
             </select>
         </div>
         </div>
@@ -94,38 +94,53 @@
             <div class="row" id="movie-container"></div>
         </div>
     </div>
+    <!--FIN Container para mostrar cartas-->
 
-    <footer class="container mt-auto py-5">
-        <div class="row">
-            <div class="col-5">
-                <a href="index.html"><img src="images/logo-topmovies.png" alt="logo"></a>
-                <small class="d-block mb-3 text-muted">Top Movies te permite buscar las películas nominadas y ganadoras a "mejor película" según los Premios Oscars de la última década.
-                    <br>Además si lo deseas puedes buscar entre todas las películas que alguna vez fuero nominadas o ganadoras en la historia del cine.
-                </small>
-            </div>
-            <div class="col-3">
-                <h5>Links de Interés</h5>
+<!-- Footer -->
+<footer class="container font-small pt-4">
+    <div class="container-fluid text-center text-md-left">
+          <div class="row">
+                <div class="col-md-5 md-md-0 mt-3">
+                    <a href="index.html"><img src="images/logo-topmovies.png" alt="logo"></a>
+                    <small class="d-block mb-3 text-muted">Top Movies te permite buscar las películas nominadas y ganadoras a "mejor película" según los Premios Oscars de la última década.
+                        <br>Además si lo deseas puedes buscar entre todas las películas que alguna vez fuero nominadas o ganadoras en la historia del cine.
+                    </small>
+                </div>
+      
+            <hr class="clearfix w-100 d-md-none pb-3">
+      
+            <div class="col-md-3 mb-md-0 mb-3">
+¡               <h5>Links de Interés</h5>
                 <ul class="list-unstyled text-small">
                     <li><a class="text-muted" href="https://oscar.go.com/" target="_blank">Premios Oscars</a></li>
                     <li><a class="text-muted" href="https://www.imdb.com/">IMDB</a></li>
                     <li><a class="text-muted" href="https://www.bbc.com/mundo/noticias/2014/02/140214_hollywood_oscars_2014_curiosidades_jg">Curiosidades de los Oscars</a></li>
                 </ul>
             </div>
-            <div class="col-4">
+
+            <div class="col-md-4 mb-md-0 mb-3">
                 <h5>Suscríbete</h5>
                 <div class="well">
                     <form action="#">
                         <div class="input-group">
-                            <input class="btn btn-lg" name="email" id="email" type="email" placeholder="Tu Email"
-                                required>
+                            <input class="btn btn-lg" name="email" id="email" type="email" placeholder="Tu Email" required>
                             <button class="btn btn-info btn-lg" type="submit">Enviar</button>
                         </div>
                     </form>
                 </div>
                 <small class="promise"><em>No enviaremos spams.</em></small>
             </div>
-        </div>
-    </footer>
+        </div>      
+    </div>
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2019 Copyright:
+        <a href="https://github.com/fernandabelenVL/Hackaton-Movies/" target="_blank"> Top Movies</a>
+    </div>
+
+</footer>
+
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">

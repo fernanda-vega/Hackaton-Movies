@@ -15,6 +15,14 @@ p {
     margin-bottom: 0rem;
 }
 
+a {
+    color: #249A90;
+}
+
+a:hover {
+    color: #999;
+}
+
 li {
     font-family: "Fira Sans", sans-serif;
     font-size: 13px;
@@ -66,10 +74,15 @@ li img {
 }
 .bg-image {
     background-image: url(images/background.png);
+    background-size: cover;
+    background-position: 0px -70px;
 }
 
 .lead {
     font-size: 1.15rem;
+}
+.p-3, .p-md-2, .m-md-2 {
+    margin: 0 !important;
 }
 
 /*----Options Bar----*/
@@ -147,6 +160,18 @@ input {
     font-size: 13px;
 }
 
+/*---Footer---*/
+.container img {
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+
+.footer-copyright {
+    color: #fff;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 12px;
+}
+ 
 /*----Subcribe----*/
 .input-group {
     margin: 20px auto 5px;
@@ -175,5 +200,44 @@ button.btn {
     .container img {
         max-width: auto;
         max-height: none;
+    }
+    .col-md-5 {
+        max-width: 61.666667%;
+    }
+    .bg-image {
+    background-position: center;
+    }
+}
+
+@media screen and (max-width: 768px){
+    h1 {
+        font-size: 25px;
+    }
+    .lead {
+        font-size: 15px;
+    }
+    .navbar{
+        padding: .5rem 1rem;
+    }
+    nav img {
+        max-width: 200px;
+        padding: 20px;
+    }
+    body {
+        padding-top: 6.5rem;
+    }
+    .options {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .search-selector {
+        display: grid;
+        width: 100%;
+    }
+    input.btn.btn-lg {
+        width: 100%;
+    }
+    button.btn {
+        font-size: 10px;
     }
 }

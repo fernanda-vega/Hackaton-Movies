@@ -120,5 +120,5 @@ window.addEventListener('load', ()=>{
   const arraySelected = ["Green Book", 'Black Panther', 'BlacKkKlansman', 'Bohemian Rhapsody', 'The Favourite', 'Roma', 'A Star is Born','Vice'];
   selectedMovies = [];
   obtainMovies(arraySelected);
-  document.getElementById("title-movies").style.display = "none";
+  movieTitle.innerHTML = "Películas ganadoras a Mejor Película en el año 2019";
  });
