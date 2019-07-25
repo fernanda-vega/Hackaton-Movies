@@ -45,15 +45,18 @@
 
     <!--Barra se selectores-->
     <div class="container">
-        <label for="movie-search">Busca alguna película premiada</label>
-        <div class="selectors">
-        <div class="search-box">
-            <!--Buscador películas premiadas-->
+        <!--Buscador películas premiadas-->
+        <div class="options">
+        <div class="search-selector">
+            <label for="movie-search">Busca alguna película premiada</label>
+            <div class="search-box">
                 <input class="btn btn-lg" type="text" name="movie-search" id="movie-search" placeholder="Busca alguna película por título">
                 <button class="btn btn-secondary" id="search">Buscar Película</button>
+            </div>
         </div>
-        <div>
-            <!--Selector películas -->
+        <!--Selector películas -->
+        <div class="year-selector">
+            <label for="movie-search">Encuentra las películas premiadas a "Mejor Película"</label>
             <select class="btn btn-secondary dropdown-toggle " name="year-select" id="year-select">
                 <option class="dropdown-item" selected disabled value>Seleccione año</option>
                 <option class="dropdown-item"value="0">2010</option>
@@ -70,12 +73,12 @@
         </div>
     </div>
     <!--FIN Barra de selectores-->
-
+    
     <!--Container para mostrar cartas-->
     <div class="album py-5 bg-dark">
         <div class="container">
-            <div class="row" id="movie-container">
-            </div>
+            <div class="title-movies" id="title-movies"></div>
+            <div class="row" id="movie-container"></div>
         </div>
     </div>
 
@@ -83,9 +86,9 @@
         <div class="row">
             <div class="col-5">
                 <a href="index.html"><img src="images/logo-topmovies.png" alt="logo"></a>
-                <small class="d-block mb-3 text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</small>
+                <small class="d-block mb-3 text-muted">Top Movies te permite buscar las películas nominadas y ganadoras a "mejor película" según los Premios Oscars de la última década.
+                    <br>Además si lo deseas puedes buscar entre todas las películas que alguna vez fuero nominadas o ganadoras en la historia del cine.
+                </small>
             </div>
             <div class="col-3">
                 <h5>Links de Interés</h5>
@@ -110,6 +113,7 @@
             </div>
         </div>
     </footer>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
@@ -121,5 +125,4 @@
     </script>
     <script src="main.js"></script>
 </body>
-
 </html>

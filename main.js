@@ -14,6 +14,8 @@ let movieArrays = [
 
 let cardContainer = document.getElementById('movie-container');
 const yearSelector = document.getElementById('year-select');
+const movieTitle = document.getElementById('title-movies');
+document.getElementById("title-movies").style.display = "none";
 yearSelector.addEventListener("change", ()=>{
 let condition = yearSelector.options[yearSelector.selectedIndex].value;
 const arraySelected = movieArrays[condition];
@@ -40,6 +42,8 @@ const drawnCards = (movie) => {
 //Showing List Data
 const showCards = (moviesList) => {
   cardContainer.innerHTML = "";
+  movieTitle.innerHTML = "Películas ganadoras a Mejor Película en el año " + yearSelector.options[yearSelector.selectedIndex].text;
+  document.getElementById("title-movies").style.display = "block";
   moviesList.forEach(element => {
     drawnCards(element);
   });
@@ -76,7 +80,7 @@ function apiCallSearch() {
   let cardContainer = document.getElementById('movie-container');
   cardContainer.innerHTML = "";
   let movieSearch = document.getElementById('movie-search').value; //se toma el valor del texto de la pelicula
-
+  document.getElementById("title-movies").style.display = "none";
 
 //se consulta el api por el nombre o año se usa el tipo search que deveulve un arreglo de peliculas
 fetch('http://www.omdbapi.com/?apikey=9cf43fbb&s=' + encodeURI(movieSearch) + '&plot=full').then(response => response.json()).then(data => {
