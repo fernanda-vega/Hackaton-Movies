@@ -64,6 +64,13 @@ li img {
 .navbar-nav {
     align-items: center;
 }
+.bg-image {
+    background-image: url(images/background.png);
+}
+
+.lead {
+    font-size: 1.15rem;
+}
 
 /*----Options Bar----*/
 label {
@@ -132,7 +139,7 @@ input {
 .title-movies {
     color: #fff;
     font-family: "Fira Sans", sans-serif;
-    background-color: #218881;
+    background-color: #222552;
     padding: 10px;
     border-radius: 10px;
     text-align: center;
