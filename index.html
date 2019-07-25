@@ -25,7 +25,7 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index">Inicio <span class="sr-only">(current)</span></a>
+                    <a class="nav-link active" href="index">Inicio <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contacto</a>
@@ -44,29 +44,31 @@
 
 
     <!--Barra se selectores-->
-    <section>
-        <!--Buscador películas premiadas-->
-        <div>
-            Pelicula: <input type="text" name="movie-search" id="movie-search">
-            <!--Año: <input type="text" name="pelicula" id="year">-->
-            <button id="search">Buscar Movie</button>
+    <div class="container">
+        <label for="movie-search">Busca alguna película premiada</label>
+        <div class="selectors">
+        <div class="search-box">
+            <!--Buscador películas premiadas-->
+                <input class="btn btn-lg" type="text" name="movie-search" id="movie-search" placeholder="Busca alguna película por título">
+                <button class="btn btn-secondary" id="search">Buscar Película</button>
         </div>
-        <!--Selector películas -->
         <div>
-            <select name="year-select" id="year-select">
-                <option selected disabled value>Seleccione año</option>
-                <option value="0">2010</option>
-                <option value="1">2011</option>
-                <option value="2">2012</option>
-                <option value="3">2013</option>
-                <option value="4">2014</option>
-                <option value="5">2015</option>
-                <option value="6">2016</option>
-                <option value="7">2017</option>
-                <option value="8">2018</option>
+            <!--Selector películas -->
+            <select class="btn btn-secondary dropdown-toggle " name="year-select" id="year-select">
+                <option class="dropdown-item" selected disabled value>Seleccione año</option>
+                <option class="dropdown-item"value="0">2010</option>
+                <option class="dropdown-item"value="1">2011</option>
+                <option class="dropdown-item"value="2">2012</option>
+                <option class="dropdown-item"value="3">2013</option>
+                <option class="dropdown-item"value="4">2014</option>
+                <option class="dropdown-item"value="5">2015</option>
+                <option class="dropdown-item"value="6">2016</option>
+                <option class="dropdown-item"value="7">2017</option>
+                <option class="dropdown-item"value="8">2018</option>
             </select>
         </div>
-    </section>
+        </div>
+    </div>
     <!--FIN Barra de selectores-->
 
     <!--Container para mostrar cartas-->
